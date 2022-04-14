@@ -1,7 +1,7 @@
 
 const request = require('request'); //Import the request package
-//const APIurl = 'https://api.thecatapi.com/v1/breeds/search'; //hhhmmm I don't want to use cat data
-const APIurl = 'https://api.thedogapi./v1/breeds/search'; // Use the dog API URL instead 😏
+const APIurl = 'https://api.thecatapi.com/v1/breeds/search'; //hhhmmm I don't want to use cat data
+//const APIurl = 'https://api.thedogapi./v1/breeds/search'; // Use the dog API URL instead 😏
 const breedSearch = process.argv[2]; // Grab the breed to search from the command line
 const URL = APIurl + '?q=' + breedSearch; // Add the query search and breed to the URL
 
